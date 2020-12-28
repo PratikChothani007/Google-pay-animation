@@ -1,6 +1,6 @@
-# animation_app
+# Google pay animation clone
 
-A new Flutter project.
+A demo of physics-base animation in flutter.
 
 ## Getting Started
 
