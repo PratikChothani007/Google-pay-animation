@@ -1,0 +1,134 @@
+API DOC:-
+
+---------------------------------------------------------------
+
+/auth/signup (POST)
+
+json body:-
+{
+  "email": "string",
+  "username": "string",
+  "password": "string",
+  "phone": "string"
+}
+
+json response:-
+{
+    "status": "success",
+    "message": "Successfully logged in.",
+    "Authorization": "Access_key"
+}
+
+/auth/login (POST)
+
+json body:-
+{
+  "email": "string",
+  "password": "string",
+}
+
+json response:-
+{
+    "status": "success",
+    "message": "Successfully logged in.",
+    "Authorization": "Access_key"
+}
+
+/auth/logout (GET)
+
+provide Authorization->"access_key" in header
+
+json response:-
+status, message
+
+-------------------------------------------------------------
+
+user/info (GET)
+
+provide Authorization->"access_key" in header
+
+json response:-
+status, message
+
+
+Add farm:-
+/user/farm (POST)
+
+json body:-
+{
+	"name": "String",
+        "city": "String",
+        "owner": "String",
+}
+and provide Authorization->"access_key" in header
+
+json response:-
+status, message
+
+
+/user/farm (GET)
+
+get all farms information that user registered
+
+ provide Authorization->"access_key" in header
+
+json response:-
+{
+    "all_farm": {
+        "name": "String",
+        "city": "String",
+        "owner": "String",
+        "public_id": "String",
+        "user_id": "String"
+    }
+}
+
+-----------------------------------------------------------------
+
+Add robot:-
+/user/farm (POST)
+
+json body:-
+{
+	"name" : "string",
+	"model" : "string",
+	"pi_type" : "string",
+	"aurdino_type" : "string",
+	"motor_type" : "string",
+	"motor_driver_type" : "string",
+	"battey_info" : "string",
+	"public_url" : "string",
+	"public_pnumber": "string",
+	"is_solar" : "string",
+	"is_led" : "string",
+}
+and provide Authorization->"access_key" in header
+
+json response:-
+status, message
+
+
+/user/farm (GET)
+
+get all farms information that user registered
+
+ provide Authorization->"access_key" in header
+
+json response:-
+{
+    '	'name' : "string",
+        'model': "string",
+        'public_id': "string",
+        'user_id': "string",
+        'pi_type': "string",
+        'aurdino_type': "string",
+        'motor_type': "string",
+        'motor_driver_type': "string",
+        'battey_info': "string",
+        'public_url': "string",
+        'public_pnumber':"string",
+        'is_solar': "string",
+        'is_led': "string",
+}
+
+-----------------------------------------------------------------
