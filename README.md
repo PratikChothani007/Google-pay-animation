@@ -2,7 +2,7 @@
 
 A demo of physics-base animation in flutter.
 
-<img src="/assets/google-pay-animation.gif" width="480" height="720">
+<img src="/assets/google-pay-animation.gif" width="1080" height="1920">
 
 ## Getting Started
 
