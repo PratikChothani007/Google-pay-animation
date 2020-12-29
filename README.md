@@ -2,6 +2,8 @@
 
 A demo of physics-base animation in flutter.
 
+![google_pay_animation_demo](assets/google_pay_animation.gif)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
